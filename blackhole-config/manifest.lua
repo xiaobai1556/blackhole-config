@@ -5,8 +5,7 @@ return {
   lc_md = [[
 # Black Hole V1
 
-![图片](https://github.com/xiaobai1556/blackhole-config/blob/main/blackhole-config/images/lc_banner.png)
-
+![图片](https://cdn.jsdelivr.net/gh/xiaobai1556/blackhole-config@main/blackhole-config/images/lc_banner.png)
 ## 快速检查
 
 1. 先在「基础设置 / 模型选择」确认模型文件已自动识别。
