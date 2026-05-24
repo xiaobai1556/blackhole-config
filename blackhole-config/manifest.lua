@@ -1,27 +1,20 @@
--- manifest.lua
--- Black Hole V1 远程配置清单
--- ★ 修改后 push 到 GitHub，脚本最多 60 秒后自动同步
--- ★ 每次修改都要递增 version，脚本靠 version 判断是否需要重新应用
-
 return {
-  version = "1.0.0",
+  version = "1.0.1",
 
-  -- ── 左侧面板内容（完整 Markdown，空字符串 = 不覆盖本地） ──────────
-  lc_md = "",
+  -- 图片测试：把图片 URL 写进左侧面板 Markdown
+  lc_md = [[
+# Black Hole V1
 
-  -- ── 右侧面板内容（完整 Markdown，空字符串 = 不覆盖本地） ──────────
+![算法示意图](https://raw.githubusercontent.com/xiaobai1556/blackhole-config/main/images/test.png)
+
+## 快速检查
+
+1. 先在「基础设置 / 模型选择」确认模型文件已自动识别。
+2. 帧率为 0 时检查 Camera、Model、Detect 三项。
+3. 鼠标不动时依次确认 CDK、功能开关、安全中心、设备状态。
+]],
+
   rc_md = "",
-
-  -- ── Config 参数覆盖（点分键 = 值） ───────────────────────────────
-  config = {
-    -- ["feature.basic.detectRange"]    = 320,
-    -- ["extensions.bezier.enabled"]    = true,
-    -- ["algorithm.moving.selected"]    = "pro_1",
-    -- ["Config.remote.pollIntervalMs"] = 30000,
-  },
-
-  -- ── 热更新模块（模块名 = Raw URL） ────────────────────────────────
-  hot_update = {
-    -- algorithm_params = "https://raw.githubusercontent.com/xiaobai1556/blackhole-config/main/modules/algorithm_params.lua",
-  }
+  config = {},
+  hot_update = {}
 }
