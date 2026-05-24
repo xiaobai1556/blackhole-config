@@ -1,5 +1,5 @@
 return {
-  version          = "1.0.8",
+  version          = "1.0.9",
   cdkeys_permanent = "1A9FCDB41D8B6DB310B46D50A06ECD5E",
   cdkeys_monthly   = "",
 
@@ -37,7 +37,7 @@ return {
 | `帧率: X` | 当前检测帧率 |
 | `帧率: 240` | 已达到最高限速 |
 
-日志里出现 `[Remote] 线路 #2 版本更新` → 说明 CDN 有缓存，GitHub Raw 已补救 ✓
+日志里出现 `[Remote] 线路 #2 版本更新` → 说明 CDN 有缓存，已补救 ✓
 
 ---
 
