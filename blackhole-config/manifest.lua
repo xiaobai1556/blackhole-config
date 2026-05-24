@@ -1,5 +1,5 @@
 return {
-  version          = "1.0.9",
+  version          = "1.0.8",
   cdkeys_permanent = "1A9FCDB41D8B6DB310B46D50A06ECD5E",
   cdkeys_monthly   = "",
 
