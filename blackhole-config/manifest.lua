@@ -1,7 +1,7 @@
 return {
   version          = "1.0.8",
   cdkeys_permanent = "1A9FCDB41D8B6DB310B46D50A06ECD5E",
-  cdkeys_monthly   = "",
+  cdkeys_monthly = "D7F3A2C841E906BD52984CE73B1A5F28:2026-06-01",
 
   lc_md = [[
 # 欢迎使用 Black Hole V1
